@@ -83,11 +83,11 @@ public:
 				switch (mode)
 				{
 				case X_Y:
-					matrix->at(bNum, wNum) = vec3(calpoint.x, calpoint.y, widthStart + widthStart * wNum);
+					matrix->at(bNum, wNum) = vec3(calpoint.x, calpoint.y, widthStart + width * wNum);
 				case X_Z:
-					matrix->at(bNum, wNum) = vec3(calpoint.x, widthStart + widthStart * wNum, calpoint.y);
+					matrix->at(bNum, wNum) = vec3(calpoint.x, widthStart + width * wNum, calpoint.y);
 				case Y_Z:
-					matrix->at(bNum, wNum) = vec3(widthStart + widthStart*wNum, calpoint.x, calpoint.y);
+					matrix->at(bNum, wNum) = vec3(widthStart + width*wNum, calpoint.x, calpoint.y);
 				}
 			}
 		}

@@ -1,6 +1,7 @@
 # BezierPractice
 OpenGL에서 Bezier curved surface를 그리기 위한 클래스 모음
 
+
 DynMat3.h
 동적으로 3차원 좌표를 가지는 Point 배열을 만들어내는 클래스
 
